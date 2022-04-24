@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="619" height="500" viewBox="0 0 619 500">
+  <defs>
+    <clipPath id="clip-iPad_1">
+      <rect width="619" height="500"/>
+    </clipPath>
+  </defs>
+  <g id="iPad_1" data-name="iPad – 1" clip-path="url(#clip-iPad_1)">
+    <path id="Hamburger_Menu" d="M90.266,60.219h-.281a19.984,19.984,0,1,0,0,39.968H610.013a19.984,19.984,0,1,0,0-39.968H90.266Zm0,199.8h-.281a19.984,19.984,0,0,0,0,39.968H610.013a19.984,19.984,0,0,0,0-39.968H90.266Zm0,199.8h-.281a19.984,19.984,0,0,0,0,39.968H610.013a19.984,19.984,0,0,0,0-39.968H90.266Z" transform="translate(-40.499 -30.003)" fill="#fff"/>
+  </g>
+</svg>

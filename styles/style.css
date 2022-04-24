@@ -6,6 +6,8 @@
 html, body {
   height:100%;
   margin:0;
+  font-family: 'Quicksand', sans-serif;
+  position: relative;
 }
 
 button:not([disabled]) {
@@ -14,6 +16,487 @@ button:not([disabled]) {
 
 /* jouw CSS vanaf hier */
 
-h1 {
-  color:crimson;
+:root {
+  --softblack: #181A19;
+  --gras: linear-gradient(rgba(126,239,27,1) 0%, rgba(79,147,19,1) 100%);
+  --wit: #ffffff;
+  --desert: linear-gradient(rgba(239,171,27,1) 0%, rgba(239,171,27,1) 52%, rgba(224,108,43,1) 100%);
+  --tropical: linear-gradient(rgba(240,230,131,1) 0%, rgba(240,230,131,1) 52%, rgba(43,219,224,1) 100%);
+  --jungle: linear-gradient(rgba(51,203,35,1) 0%, rgba(51,203,35,1) 77%, rgba(108,113,9,1) 100%);
+  --snow: linear-gradient(rgba(161,255,248,1) 0%, rgba(35,203,197,1) 73%, rgba(29,143,149,1) 100%); 
+  --mountains: linear-gradient(rgba(220,220,220,1) 0%, rgba(255,255,255,1) 19%, rgba(131,255,83,1) 100%); 
+}
+
+main {
+  position: absolute;
+}
+
+a {
+  color: var(--wit);
+}
+
+.pad { 
+  max-width: 100%;
+  position: absolute;
+}
+
+/* Homepagina */
+
+.section.home {
+  position: relative;
+  width:100%;
+  height:100%;
+  background: rgb(213,84,66);
+  background: linear-gradient(90deg, rgba(213,84,66,1) 0%, rgba(223,235,55,1) 32%, rgba(49,126,209,1) 65%, rgba(190,0,255,1) 100%);
+}
+
+h1{
+  color: var(--wit);
+  font-family: 'Press Start 2P', cursive;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 1em;
+  position: absolute;
+  top: .5em;
+  left: 1em;
+  /* -webkit-text-stroke-width: .01em;
+  -webkit-text-stroke-color: black; */
+
+}
+
+.bros h1, .bros2 h1, .bros3 h1, .bros4 h1, .bros5 h1, .bros6 h1{
+  color: var(--softblack);
+  font-family: 'Press Start 2P', cursive;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 1em;
+  position: absolute;
+  top: .5em;
+  left: 40%;
+}
+
+.menu{
+  width:4em;
+  height:4em;
+  position: absolute;
+  top: 3.5em;
+  right: 3em;
+
+}
+
+.texthome {
+  position: absolute;
+  width: 33%;
+  height: auto;
+  background-color: var(--softblack);
+  margin: 2em;
+  padding: 1.5em;
+  border: .03em solid var(--wit);
+  top: 25%;
+  box-shadow: .5em .5em 1em var(--softblack);
+}
+
+h3{
+  color:var(--wit);
+  font-family: 'Press Start 2P', cursive;
+  text-transform: uppercase;
+  line-height: 1.2em;
+}
+
+.star {
+  position: absolute;
+  width: 15%;
+  height: auto;
+  top: 1.5em;
+  right: 3em;
+}
+
+p {
+  color:var(--wit);
+  font-size: 1em;
+}
+
+.peek {
+  position: absolute;
+  bottom: 1em;
+  right: 5em;
+
+  width: 40%;
+  height: auto;
+}
+
+.arrowup {
+  width:6em;
+  position: absolute;
+  right: 1em;
+  bottom: 6em;
+  transform: rotate(180deg);
+}
+.arrowdown {
+  width:6em;
+  position: absolute;
+  right: 1.6em;
+  bottom: 2em;
+}
+
+.textworld {
+  width: 25%;
+  height: auto;
+  background-color: var(--softblack);
+  margin: 2em;
+  padding: 1.5em;
+  border: .03em solid var(--wit);
+  box-shadow: .5em .5em 1em var(--softblack);
+}
+
+/* World 1 */
+
+.section.bros {
+  position: relative;
+  width:100%;
+  height:100%;
+  background: var(--gras);
+}
+
+.gif {
+  position: absolute;
+  right: 10em;
+  top: 8em;
+
+  width: 10%;
+  height: auto;
+
+}
+
+.textworld1-1 {
+  position: absolute;
+  bottom: 20%;
+  left: 5%;
+}
+
+.mario1-mushroom {
+  width: 5%;
+  height: auto;
+
+  position: absolute;
+  bottom: 1%;
+  padding: .3em;
+
+  animation: mushroom1 10s ease-in-out 0s infinite;
+
+}
+
+@keyframes mushroom1 {
+  from {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: 95%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+
+.mario1-brick {
+  width: 7.5%;
+  height: auto;
+
+  position: absolute;
+  top: 2%;
+  left: 5%;
+  margin: 2em;
+
+  animation: brick 3s ease-in-out 0s infinite;
+}
+
+@keyframes brick {
+  0% {
+    transform: translateY(0em);
+  }
+  50% {
+    transform: translateY(3em);
+  }
+  100% {
+    transform: translateY(0em);
+  }
+}
+
+/* Mario wereld 2 */
+
+.section.bros2 {
+  position: relative;
+  background: var(--desert);
+}
+
+.textworld2-1 {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+ 
+}
+
+.textworld2-2 {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+}
+
+.gif-world2 {
+  position: absolute;
+  left: 15em;
+  bottom: 5em;
+
+  width: 10%;
+  height: auto;
+
+}
+
+.red-koopa{
+  width: 5%;
+  height: auto;
+
+  position: absolute;
+  right: 32%;
+  bottom: 56%;
+  padding: .3em;
+
+  animation: redkoopa 8s ease-in-out 0s infinite;
+}
+
+@keyframes redkoopa {
+  0% {
+    transform: translateX(0);
+  }
+
+  50%{
+    transform: translateX(17em);
+  }
+
+  100%{
+    transform: translateX(0);
+  }
+}
+
+/* World 3 */
+
+.section.bros3 {
+  position: relative;
+  background: var(--tropical);
+}
+
+.textworld3-1 {
+  position: absolute;
+  top: 15%;
+  right: 7.5%;
+ 
+}
+
+.textworld3-2 {
+  position: absolute;
+  top: 35%;
+  left: 7.5%;
+ 
+}
+
+.yoshi{
+  position: absolute;
+  bottom: 0em;
+  left: 50%;
+  width: 12.5em;
+
+  animation: yoshi 8s ease-in-out 0s infinite;
+}
+
+@keyframes yoshi {
+  from {
+    transform: translateX(0em);
+  }
+  50% {
+    transform: translateX(30em);
+  }
+  to {
+    transform: translateX(0em);
+  }
+}
+
+.mario-world3{
+  width: 7.5em;
+  height: auto;
+  position: absolute;
+  top: 3em;
+  right: 10em;
+}
+
+.metalmario{
+  width: 10em;
+  height: auto;
+  position: absolute;
+  top: 30%;
+  left: 33%;
+}
+
+
+
+/* World 4 */
+
+.section.bros4 {
+  position: relative;
+  background: var(--jungle);
+}
+
+.newbros {
+  width: 10em;
+  height: auto;
+  position: absolute;
+  top: 1em;
+  animation: vroom 3s ease-in 0s infinite;
+}
+
+@keyframes vroom{
+  from{
+    transform: translateX(-15em);
+    animation-timing-function: linear;
+  }
+  60%{
+    transform: translateX(35em);
+    animation-timing-function: linear;
+  }
+  to{
+    transform: translateX(120em);
+    animation-timing-function: ease-in;
+  }
+}
+
+.textworld4-1 {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+ 
+}
+
+.plant{
+  width: 30em;
+  height: auto;
+  position: absolute;
+  bottom: 0em;
+  right: 5.5em;
+}
+
+/* World 5 */
+
+.section.bros5 {
+  position: relative;
+  background: var(--snow);
+}
+
+.textworld5-1 {
+  position: absolute;
+  top: 7em;
+  right: 10em;
+}
+
+.textworld5-2 {
+  position: absolute;
+  bottom: 4em;
+  left: 10em;
+}
+
+.rainbowmario {
+  width: 7.5em;
+  height: auto;
+  position: absolute;
+  right: 7em;
+  top: 3.5em;
+}
+
+.luckycat {
+  width: 7em;
+  height: auto;
+  position: absolute;
+  top: 6.4em;
+  left: 27em;
+}
+
+/* World 6 */
+
+.section.bros6 {
+  position: relative;
+  background: var(--mountains);
+}
+
+.textworld6-1 {
+  position: absolute;
+  top: 7em;
+  left: 10em;
+}
+
+.textworld6-2 {
+  position: absolute;
+  bottom: 5em;
+  right: 10em;
+}
+
+.mariorun{
+  width: 10em;
+  height: auto;
+  position: absolute;
+  left: 7em;
+  top: 1em;
+}
+
+.odessey{
+  width: 10em;
+  height: auto;
+  position: absolute;
+  bottom: 15em;
+  right: 7em;
+}
+
+.goomba{
+  width: 7em;
+  height: auto;
+  position: absolute;
+  bottom: 0em;
+  left: 1em;
+  transform: rotateY(180deg);
+
+  animation: goomba 10s ease-in-out 0s infinite;
+
+}
+
+@keyframes goomba {
+  0%{
+    transform: translate(0 0) rotateY(180deg);
+  }
+  10%{
+    transform: translate(4em, -4em) rotateY(180deg);
+  }
+  20%{
+    transform: translate(8em, 0em) rotateY(180deg);
+  }
+  30%{
+    transform: translate(12em, -4em) rotateY(180deg);
+  }
+  40%{
+    transform: translate(16em, 0em) rotateY(180deg);
+  }
+  50%{
+    transform: translate(20em, -4em) rotateY(180deg);
+  }
+  60%{
+    transform: translate(16em, 0em) rotateY(180deg);
+  }
+  70%{
+    transform: translate(12em, -4em) rotateY(180deg);
+  }
+  80%{
+    transform: translate(8em, 0em) rotateY(180deg);
+  }
+  90%{
+    transform: translate(4em, -4em) rotateY(180deg);
+  }
+  100% {
+    
+  }
 }
