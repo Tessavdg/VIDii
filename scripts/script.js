@@ -6,7 +6,7 @@ new fullpage('#fullpage', {
 	//autoScrolling:true,
 	//scrollHorizontally: true
 
-	anchors:['firstPage', 'secondPage', 'thirdPage']
+	anchors:['home', 'world1', 'world2', 'world3', 'world4', 'world5', 'world6', 'about']
 });
 
 /* Set the width of the side navigation to 250px */
@@ -18,3 +18,18 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
+
+document.querySelectorAll(".sidenav a").forEach(el=>{
+	el.addEventListener("click", function(){
+		console.log("close");
+		closeNav();
+	});
+});
+
+document.querySelector(".arrowdown").addEventListener("click", function(){
+	fullpage_api.moveSectionDown()
+});
+
+document.querySelector(".arrowup").addEventListener("click", function(){
+	fullpage_api.moveSectionUp()
+});
