@@ -154,6 +154,21 @@ h1{
   display: none;
 }
 
+.section::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url("../images/pad_laatstekans.png");
+  background-position: 50% 0;
+  background-size: calc(1080 * 100vh / 1080);
+  background-repeat: no-repeat;
+}
+
+
+
 
 
 /************/
@@ -163,6 +178,7 @@ h1{
 .section.home {
   position: relative;
   background: linear-gradient(90deg, rgba(213,84,66,1) 0%, rgba(223,235,55,1) 32%, rgba(49,126,209,1) 65%, rgba(190,0,255,1) 100%);
+
 }
 
 .stars{
@@ -179,7 +195,7 @@ h1{
   font-family: 'Press Start 2P', cursive;
   font-weight: 700;
   text-transform: uppercase;
-  padding: 1em;
+  padding: 1em 8em 1em 1em;
   position: absolute;
   text-align: left;
   top: .5em;
@@ -207,8 +223,9 @@ h1{
   margin: 2em;
   padding: 1.5em;
   border: .03em solid var(--wit);
-  top: 25%;
+  top: 50%;
   box-shadow: .5em .5em 1em var(--softblack);
+  transform: translate(0,-50%);
 }
 
 h2{
@@ -264,6 +281,10 @@ p {
   width:100%;
   height:100%;
   background: var(--gras);
+}
+
+.section.bros::before{
+  background-position: 50% calc(-1080 * 100vh / 1080);
 }
 
 .gif {
@@ -354,6 +375,10 @@ p {
   background: var(--desert);
 }
 
+.section.bros2::before{
+  background-position: 50% calc(-2 * 1080 * 100vh / 1080);
+}
+
 .textworld2-1 {
   position: absolute;
   top: 10%;
@@ -414,12 +439,16 @@ p {
 
 
 /***********/
-/* WORLD 4 */
+/* WORLD 3 */
 /***********/
 
 .section.bros3 {
   position: relative;
   background: var(--tropical);
+}
+
+.section.bros3::before{
+  background-position: 50% calc(-3 * 1080 * 100vh / 1080);
 }
 
 .textworld3-1 {
@@ -492,6 +521,10 @@ p {
   background: var(--jungle);
 }
 
+.section.bros4::before{
+  background-position: 50% calc(-4 * 1080 * 100vh / 1080);
+}
+
 .newbros {
   width: 10em;
   height: auto;
@@ -543,6 +576,10 @@ p {
   background: var(--snow);
 }
 
+.section.bros5::before{
+  background-position: 50% calc(-5 * 1080 * 100vh / 1080);
+}
+
 .textworld5-1 {
   position: absolute;
   top: 7em;
@@ -582,6 +619,10 @@ p {
 .section.bros6 {
   position: relative;
   background: var(--mountains);
+}
+
+.section.bros6::before{
+  background-position: 50% calc(-6 * 1080 * 100vh / 1080);
 }
 
 .textworld6-1 {
@@ -671,6 +712,10 @@ p {
 .section.about{
   position: relative;
   background: var(--clouds);
+}
+
+.section.about::before{
+  background-position: 50% calc(-7 * 1080 * 100vh / 1080);
 }
 
 .itsme {
