@@ -61,7 +61,7 @@ Blauw
   Op dit moment was alleen de tekst op de homepagina aanwezig. Deze tekst heb ik voor 2/3 ingekort waardoor alleen de essentiële info op de website staat. Dit heb ik vervolgens ook doorgevoerd in de rest van de teksten.
 
   <img src="https://tessavdg.github.io/VIDii/readme-images/tekst_versie1" width="375px" alt="tekstv1">
-  <img src="https://tessavdg.github.io/VIDii/readme-images/uiteindelijke_tekst" width="375px" alt="tekstfinal">
+  <img src="https://tessavdg.github.io/VIDii/readme-images/uiteindelijke_tekst.png" width="375px" alt="tekst final">
 
 
   ### Bevinding 3:
