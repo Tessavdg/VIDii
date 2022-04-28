@@ -104,7 +104,7 @@ Blauw
   #### oplossing:
   Na deze feedback heb ik alle elementen onderverdeeld per wereld en dus per pagina. Deze staan duidelijk aangegeven in de CSS door meer regels te gebruiken.
 
-  <img src="https://tessavdg.github.io/VIDii/readme-images/comments.png" width="375px" alt="comments">
+  <img src="https://tessavdg.github.io/VIDii/readme-images/Comments.png" width="375px" alt="comments">
 
 </details>
 
@@ -160,7 +160,7 @@ Blauw
   Ik heb geleerd hoe ik animaties moet maken in CSS. Daarnaast heb ik geleerd hoe ik met een plug-in fullpage scrollen kan maken. Verder weet ik nu hoe ik elementen klikbaar kan maken in Javascript. Ook weet ik nu hoe ik items kan laten insliden zodra dit element actief wordt. Ten slotte weet ik nu hoe ik hover states kan gebruiken in code.
 
   <img src="https://tessavdg.github.io/VIDii/readme-images/yoshi_animatie.png" width="375px" alt="animatie yoshi">
-  <img src="https://tessavdg.github.io/VIDii/readme-images/fullpage-navigatie.png" width="375px" alt="navigatie">
+  <img src="https://tessavdg.github.io/VIDii/readme-images/Fullpage-navigatie.png" width="375px" alt="navigatie">
   <img src="https://tessavdg.github.io/VIDii/readme-images/klikbaar_js.png" width="375px" alt="klikbare pijlen">
   <img src="https://tessavdg.github.io/VIDii/readme-images/hover-mario.png" width="375px" alt="hoveren over mario">
   
