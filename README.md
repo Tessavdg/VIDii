@@ -13,10 +13,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Jij
 
 ### Ontwerper:
-Sanne 't Hooft (vervangen door jouw naam)
+Tessa van der Grijspaarde
 
 #### Je startniveau:
-Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
+Blauw
 
 
 
@@ -25,18 +25,17 @@ Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
 # Je plan
 
 <details open>
-  <summary>De eerste versie/schets van je ontwerp & je persoonlijke uitdaging</summary>
+  <summary>Als klein meisje vond ik het geweldig om Mario Bros te spelen om mijn DS. Daarom wilde ik het design van de website op deze game baseren. In de eerste versie zie je een leveloverzicht van de eerste wereld in New Super Mario Bros.. Mijn idee was om per level een mario te tonen en uit te leggen. Zo ging je door de levels heen en ging je steeds een stukje verder in de tijd waardoor de mario's steeds veranderde. Daarnaast had ik besloten om de website te maken over Invincible Mario in plaats van de standaard Mario. Dit heb ik gedaan omdat ik wist dat andere klasgenoten ook met Mario aan de gang gingen en ik toch een beetje origineel wilde zijn met de content van de pagina </summary>
 
   ### De eerste versie/schets:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="eerste versie/schets">
+  <img src="readme-images/eersteversie-mario" width="375px" alt="eerste versie/schets">
 
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - States
+  - Animatie
+  - Slide-in menu en tekst
  
 </details>
 
@@ -46,26 +45,32 @@ Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
 ## Voortgang/Feedback 1
 
 <details>
-  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
+  <summary>Mijn bevindingen + wijzigingen</summary>
 
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Ik kreeg feedback van Job. Hij vertelde mij dat deze manier van levels tonen niet heel origineel is, omdat ik letterlijk een foto van de game heb. Mocht ik zelf iets illustreren zou dit al beter zijn en kan je er een eigen draai aan geven.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
+  Hiermee ben ik aan de slag gegaan. Ik ben gaan schetsen en heb een pad gemaakt. De gebruiker volgt het pad en krijgt daarmee mee informatie. Het pad loopt door de gehele website en neemt de gebruiker dus echt mee. Om het pad heen komen vervolgens tekst en afbeelding van de Invincible Mario. Dit pad is verwerkt in de website.
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Job gaf aan dat er nog erg veel tekst te vinden is op de website.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Op dit moment was alleen de tekst op de homepagina aanwezig. Deze tekst heb ik voor 2/3 ingekort waardoor alleen de essentiële info op de website staat. Dit heb ik vervolgens ook doorgevoerd in de rest van de teksten.
 
+  <img src="readme-images/tekst_versie1" width="375px" alt="eerste versie/schets">
+  <img src="readme-images/uiteindelijke_tekst" width="375px" alt="eerste versie/schets">
 
 
   ### Bevinding 3:
-  ...
+  "Ik zou sws rainbow kingdom erin doen, want invicible mario heeft alle kleuren van de regenboog," zei Job.
+
+  #### oplossing:
+  Deze suggestie heb ik niet doorgevoerd in de website. Dit omdat ik het wilde baseren op de werelden in New Super Mario Bros.. Hier komt Rainbow Kingdom niet in voor. De Rainbow heb ik wel nog verwerkt in de homepagina.
+
+  <img src="readme-images/uiteindelijke_tekst" width="375px" alt="eerste versie/schets">
 
 </details>
 
@@ -75,18 +80,18 @@ Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
 ## Voortgang/Feedback 2
 
 <details>
-  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
+  <summary>Mijn bevindingen + wijzigingen</summary>
   
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Er zijn nog geen hover states aangebracht in de interface.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Van dit punt was ik mij bewust. Na deze feeedback heb ik hover states aangemaakt over afbeeldingen en de pijlen in de navigatie. Alle afbeeldingen vergroten met .1 of .2 afhankelijk van de grootte.
 
-
+  <img src="readme-images/hover-states" width="375px" alt="eerste versie/schets">
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Er zijn 2 javascript beestanden.
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
