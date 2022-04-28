@@ -28,7 +28,7 @@ Blauw
   <summary>Als klein meisje vond ik het geweldig om Mario Bros te spelen om mijn DS. Daarom wilde ik het design van de website op deze game baseren. In de eerste versie zie je een leveloverzicht van de eerste wereld in New Super Mario Bros.. Mijn idee was om per level een mario te tonen en uit te leggen. Zo ging je door de levels heen en ging je steeds een stukje verder in de tijd waardoor de mario's steeds veranderde. Daarnaast had ik besloten om de website te maken over Invincible Mario in plaats van de standaard Mario. Dit heb ik gedaan omdat ik wist dat andere klasgenoten ook met Mario aan de gang gingen en ik toch een beetje origineel wilde zijn met de content van de pagina </summary>
 
   ### De eerste versie/schets:
-  <img src="https://tessavdg.github.io/VIDii/readme-images/eersteversie-mario" width="375px" alt="eerste versie/schets">
+  <img src="https://tessavdg.github.io/VIDii/readme-images/eersteversie-mario.png" width="375px" alt="eerste versie/schets">
 
 
   ### Je ambitie: 
@@ -60,7 +60,7 @@ Blauw
   #### oplossing:
   Op dit moment was alleen de tekst op de homepagina aanwezig. Deze tekst heb ik voor 2/3 ingekort waardoor alleen de essentiële info op de website staat. Dit heb ik vervolgens ook doorgevoerd in de rest van de teksten.
 
-  <img src="https://tessavdg.github.io/VIDii/readme-images/tekst_versie1" width="375px" alt="tekstv1">
+  <img src="https://tessavdg.github.io/VIDii/readme-images/tekst_versie1.png" width="375px" alt="tekstv1">
   <img src="https://tessavdg.github.io/VIDii/readme-images/uiteindelijke_tekst.png" width="375px" alt="tekst final">
 
 
@@ -70,7 +70,7 @@ Blauw
   #### oplossing:
   Deze suggestie heb ik niet doorgevoerd in de website. Dit omdat ik het wilde baseren op de werelden in New Super Mario Bros.. Hier komt Rainbow Kingdom niet in voor. De Rainbow heb ik wel nog verwerkt in de homepagina.
 
-  <img src="https://tessavdg.github.io/VIDii/readme-images/uiteindelijke_tekst" width="375px" alt="tekstfinal">
+  <img src="https://tessavdg.github.io/VIDii/readme-images/uiteindelijke_tekst.png" width="375px" alt="tekstfinal">
 
 </details>
 
