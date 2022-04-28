@@ -88,7 +88,7 @@ Blauw
   #### oplossing:
   Van dit punt was ik mij bewust. Na deze feeedback heb ik hover states aangemaakt over afbeeldingen en de pijlen in de navigatie. Alle afbeeldingen vergroten met .1 of .2 afhankelijk van de grootte.
 
-  <img src="readme-images/hover-states" width="375px" alt="eerste versie/schets">
+  <img src="https://tessavdg.github.io/VIDii/readme-images/hover-states.png" width="375px" alt="eerste versie/schets">
 
   ### Bevinding 2:
   Er zijn 2 javascript beestanden.
