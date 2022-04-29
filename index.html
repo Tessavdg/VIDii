@@ -20,10 +20,8 @@
 
 <body>
 
-	<main>
-
 		<!-- Navigatie -->
-		<div id="mySidenav" class="sidenav">
+		<nav id="mySidenav" class="sidenav">
 			<a href="javascript:void(0)" class="closebtn">&times;</a>
 			<a href="#home">Home</a>
 			<a href="#world1">World 1</a>
@@ -33,9 +31,9 @@
 			<a href="#world5">World 5</a>
 			<a href="#world6">World 6</a>
 			<a href="#about">About</a>
-		  </div>
+		</nav>
 		  
-		  <span onclick="openNav()"><img src="images/Hamburger_Menu.svg" class="menu" /></span>
+		  <button onclick="openNav()" class="menu"><img src="images/Hamburger_Menu.png" /></button>
 
 		<div>
 			<img src="images/arrow.png" class="arrowup"/>
@@ -43,11 +41,11 @@
 		</div> 
 		
 		<!-- FullPage plug-in needs divs -->
-		<div id="fullpage">
+	<main id="fullpage">
 
 
 			<!-- Homepage -->
-			<div class="section home">
+			<section class="section home">
 
 				<h1>The History of Invincible Mario</h1>
 				<img src="images/Stars.png" class="stars" />
@@ -59,19 +57,19 @@
 					<p class="p-white">Invincible Mario is een vorm die Mario kan aannemen na het gebruik van een Super Star. In deze staat wordt hij niet beïnvloed door de meeste vijanden en obstakels, en kan hij de meeste van hen verslaan door ze eenvoudig aan te raken.<br> Onoverwinnelijkheid wordt meestal weergegeven door een knipperend, van kleur veranderend personage.</p>
 				</div>
 					<div>
-						<img src="images/mario_peek.png" class="peek" /> 
+						<img tabindex="0" src="images/mario_peek.png" class="peek" /> 
 						<div class="hidehome">
 							<p>Itsa me! Mario! Als Invincible Mario ben ik onverwoestbaar! 💪 <br> Reis met me mee door de tijd en kijk hoe ik verander. Klik op het pijltje of op mij en laten we beginnen! Ciao!</p>
 						</div>
 						<h3 class="hoverhome">Hover over mij!</h3>
 					</div>
-			</div>
+			</section>
 
 
 
 
 			<!-- World 1 -->
-			<div class="section bros">
+			<section class="section bros">
 				<h1>World 1</h1>
 
 				<img src="images/SmallinvincibleMario.gif" class="gif"/>
@@ -82,13 +80,13 @@
 				<img src="images/Mario1/mushroom.png" class="mario1-mushroom" />
 				<img src="images/Mario1/Brick.png" class="mario1-brick" />
 
-			</div>
+			</section>
 
 
 
 
 			<!-- World 2 -->
-			<div class="section bros2">
+			<section class="section bros2">
 					<h1>World 2</h1>
 					<img src="images/Mario2/invincible-mario.gif" class="gif-world2"/>
 					<div class="textworld textworld2-1 textleft">
@@ -101,13 +99,13 @@
 					</div>
 					<img src="images/Mario2/red-koopatroopa.png" class="red-koopa" />
 			
-			</div>
+			</section>
 
 
 
 
 			<!-- World 3 -->
-			<div class="section bros3">
+			<section class="section bros3">
 				<h1>World 3</h1>
 				<img src="images/Mario3/yoshi-gif.gif" class="yoshi"/>
 				<div class="textworld textworld3-1 textright">
@@ -121,13 +119,13 @@
 				</div>
 				<img src="images/Mario3/MetalMario.png" class="metalmario" />
 				
-			</div>
+			</section>
 
 
 
 
 			<!-- World 4 -->
-			<div class="section bros4">
+			<section class="section bros4">
 				<img src="images/Mario4/Invincible_NewBros.png" class="newbros"/>
 				<h1>World 4</h1>
 				<div class="textworld textworld4-1 textleft">
@@ -136,13 +134,13 @@
 				</div>
 				<img src="images/Mario4/Firepiranhaplant.png" class="plant" />
 			
-			</div>
+			</section>
 			
 
 
 
 			<!-- World 5 -->
-			<div class="section bros5">
+			<section class="section bros5">
 				<h1>World 5</h1>
 				<div class="textworld textworld5-1 textright">
 					<h2>5-1</h2>
@@ -155,13 +153,13 @@
 				</div>
 				<img src="images/Mario5/LuckyCat.png" class="luckycat" />
 			
-			</div>
+			</section>
 
 
 
 
 			<!-- World 6 -->
-			<div class="section bros6">
+			<section class="section bros6">
 				<h1>World 6</h1>
 				<div class="textworld textworld6-1 textleft">
 					<h2>6-1</h2>
@@ -175,13 +173,13 @@
 				<img src="images/Mario6/odessey.png" class="odessey" />
 				<img src="images/Mario6/Goomba.jpeg" class="goomba" />
 		
-			</div>
+			</section>
 
 
 
 
 			<!-- About -->
-			<div class="section about">
+			<section class="section about">
 				<h1>About</h1>
 				<div class="textworld textworld1-1 textleft">
 					<h2>Levels</h2>
@@ -193,9 +191,7 @@
 				</div>
 				<img src="images/itsme.png" class="itsme" />
 			
-			</div>
-		</div>
-
+			</section>
 	</main>
 
 	<script type="text/javascript" src="scripts/fullpage.min.js"></script>

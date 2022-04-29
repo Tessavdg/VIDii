@@ -43,7 +43,6 @@ html, body {
   --clouds: linear-gradient(rgba(255,255,255,1) 0%, rgba(180,250,255,1) 25%, rgba(83,209,255,1) 100%);
 }
 
-
 main {
   position: absolute;
 }
@@ -190,8 +189,11 @@ p {
   left: 0;
   top: 0;
   background-image: url("../images/pad.png");
-  background-position: 50% 0;
-  background-size: calc(1080 * 100vh / 1080);
+  /* background-position: 50% 0; */
+
+  background-position: 50% calc( var(--background-pos) * 100vh);
+  
+  background-size: calc(100vh);
   background-repeat: no-repeat;
 }
 
@@ -217,6 +219,8 @@ p {
 /************/
 
 .section.home {
+  --background-pos: 0;
+
   position: relative;
   background: linear-gradient(90deg, rgba(213,84,66,1) 0%, rgba(223,235,55,1) 32%, rgba(49,126,209,1) 65%, rgba(190,0,255,1) 100%);
 
@@ -235,6 +239,7 @@ p {
 .home h1{
   color: var(--wit);
   font-family: 'Press Start 2P', cursive;
+  font-size: 2em;
   font-weight: 700;
   text-transform: uppercase;
   padding: 1em 8em 1em 1em;
@@ -244,17 +249,28 @@ p {
   left: 1em;
 }
 
-.menu{
-  width:4em;
-  height:4em;
+button{
+  width:5em;
+  height:auto;
   position: fixed;
   top: 3.5em;
   right: 3em;
   z-index: 9998;
+  background: none;
+  border: none;
 }
 
-.menu:hover{
+.menu img {
+  width:5em;
+  height:auto;
+  right: 3em;
+}
+
+.menu:hover, 
+.menu:focus{
   cursor: url(../images/mario_jump.png), pointer;
+  filter:drop-shadow(0 0 .5em black);
+  outline: none;
 }
 
 .texthome {
@@ -289,8 +305,11 @@ p {
 
 }
 
-.peek:hover{
+.peek:hover,
+.peek:focus {
   cursor: url(../images/mario_jump.png), pointer;
+  filter:drop-shadow(0 0 .5em black);
+  outline:none;
 }
 
 .hidehome {
@@ -316,7 +335,8 @@ p {
   color: var(--softblack);
 }
 
-.peek:hover + .hidehome{
+.peek:hover + .hidehome,
+.peek:focus + .hidehome{
   display: block;
   
 }
@@ -340,14 +360,13 @@ p {
 /***********/
 
 .section.bros {
+  --background-pos: -1;
+
+
   position: relative;
   width:100%;
   height:100%;
   background: var(--gras);
-}
-
-.section.bros::before{
-  background-position: 50% calc(-1080 * 100vh / 1080);
 }
 
 .gif {
@@ -434,13 +453,10 @@ p {
 /***********/
 
 .section.bros2 {
+  --background-pos: -2;
+
   position: relative;
   background: var(--desert);
-}
-
-/* Hiermee wordt de positie van het pad bepaalt en is hij responsive op elke viewport */
-.section.bros2::before{
-  background-position: 50% calc(-2 * 1080 * 100vh / 1080);
 }
 
 .textworld2-1 {
@@ -507,12 +523,10 @@ p {
 /***********/
 
 .section.bros3 {
+  --background-pos: -3;
+
   position: relative;
   background: var(--tropical);
-}
-
-.section.bros3::before{
-  background-position: 50% calc(-3 * 1080 * 100vh / 1080);
 }
 
 .textworld3-1 {
@@ -591,12 +605,10 @@ p {
 /***********/
 
 .section.bros4 {
+  --background-pos: -4;
+
   position: relative;
   background: var(--jungle);
-}
-
-.section.bros4::before{
-  background-position: 50% calc(-4 * 1080 * 100vh / 1080);
 }
 
 .newbros {
@@ -652,12 +664,9 @@ p {
 /***********/
 
 .section.bros5 {
+  --background-pos: -5;
   position: relative;
   background: var(--snow);
-}
-
-.section.bros5::before{
-  background-position: 50% calc(-5 * 1080 * 100vh / 1080);
 }
 
 .textworld5-1 {
@@ -705,12 +714,10 @@ p {
 /***********/
 
 .section.bros6 {
+  --background-pos: -6;
+
   position: relative;
   background: var(--mountains);
-}
-
-.section.bros6::before{
-  background-position: 50% calc(-6 * 1080 * 100vh / 1080);
 }
 
 .textworld6-1 {
@@ -806,12 +813,10 @@ p {
 /*********/
 
 .section.about{
+  --background-pos: -7;
+
   position: relative;
   background: var(--clouds);
-}
-
-.section.about::before{
-  background-position: 50% calc(-7 * 1080 * 100vh / 1080);
 }
 
 .itsme {
